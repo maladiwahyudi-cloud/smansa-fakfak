@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SMA Negeri 1 Fakfak</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #123c69;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 15px;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #123c69;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        .hero {
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(
+                rgba(18,60,105,0.85),
+                rgba(18,60,105,0.85)
+            );
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 13px 25px;
+            background: white;
+            color: #123c69;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .content {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .content h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #123c69;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            color: #123c69;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        footer {
+            background: #123c69;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+
+            header h1 {
+                font-size: 23px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 7px;
+            }
+
+            .hero h2 {
+                font-size: 30px;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>SMA NEGERI 1 FAKFAK</h1>
+        <p>Portal Digital Sekolah</p>
+    </header>
+
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Profil</a>
+        <a href="#">Akademik</a>
+        <a href="#">Kesiswaan</a>
+        <a href="#">BK</a>
+        <a href="#">Kontak</a>
+    </nav>
+
+    <section class="hero">
+        <div>
+            <h2>Selamat Datang</h2>
+
+            <p>
+                Website resmi Portal Digital
+                SMA Negeri 1 Fakfak.
+                Satu pintu untuk informasi,
+                layanan, dan kegiatan sekolah.
+            </p>
+
+            <a href="#" class="button">
+                Jelajahi Website
+            </a>
+        </div>
+    </section>
+
+    <section class="content">
+
+        <h2>Layanan Sekolah</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>📚 Akademik</h3>
+                <p>
+                    Informasi pembelajaran,
+                    jadwal, kegiatan akademik,
+                    dan informasi pendidikan.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🧭 Bimbingan Konseling</h3>
+                <p>
+                    Layanan BK untuk membantu
+                    perkembangan pribadi,
+                    sosial, belajar, dan karier siswa.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>📢 Informasi Sekolah</h3>
+                <p>
+                    Pengumuman, agenda,
+                    kegiatan sekolah,
+                    dan informasi terbaru.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>
+            © 2026 SMA Negeri 1 Fakfak
+        </p>
+    </footer>
+
+</body>
+</html>
